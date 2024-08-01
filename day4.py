@@ -29,11 +29,9 @@ def rectangle():
     y = float(input('Input length here: \n '))
     return x * y
 
-# Define rrr as a separate function
 def rrr():
     return x * y
 
-# Call the rectangle function to initialize x and y
 rectangle()
 print(f'The area of the rectangle is {rrr():.2f}')
 
